@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-
+import ArtImageTile from '../ArtImageTile';
 
 
 function GalleryView ( {galleries}){
