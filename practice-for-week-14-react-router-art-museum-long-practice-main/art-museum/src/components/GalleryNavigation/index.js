@@ -3,7 +3,7 @@ import './GalleryNavigation.css'
 
 
 function GalleryNavigation({ galleries }) {
-    console.log(galleries);
+
 
     const galleryList = galleries.map((gallery) => {
         return (

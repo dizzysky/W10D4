@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <GalleryNavigation galleries={harvardArt.records} />
-      <Route path='/galleries/:galleryId' component={GalleryView}  />
+      <Route path='/galleries/:galleryId'>
+        <GalleryView galleries={harvardArt.records}/>
+      </Route>
     </>
   );
 }
